@@ -93,7 +93,7 @@ function heap_sort()
 
 /*
     *****************
-    DONE BY:-   TUMMALA KETHAN
+    DONE BY:-   Kunal Shaw
     
     *****************
 */
