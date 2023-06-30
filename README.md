@@ -1,6 +1,6 @@
 # Sorting_Visualizer
 
-Project Description: Sorting Algorithms Visualizer
+## Project Description: Sorting Algorithms Visualizer
 
 The Sorting Algorithms Visualizer is a web-based application that aims to enhance the learning experience and understanding of sorting algorithms through interactive visualizations. This project provides a platform where users can observe the step-by-step execution of various sorting algorithms in real-time, enabling them to comprehend the algorithms' inner workings and compare their performances.
 
@@ -21,7 +21,7 @@ Key Features:
 
 The Sorting Algorithms Visualizer project aims to bridge the gap between theoretical knowledge and practical implementation by offering an engaging and interactive platform. By visualizing the sorting algorithms' step-by-step execution, users can grasp their intricacies, compare their performances, and gain a solid foundation in algorithmic design and analysis.
 
-Implemented algorithms:
+### Implemented algorithms:
 1) Bubble sort
 2) Selection sort
 3) Insertion sort
@@ -29,45 +29,55 @@ Implemented algorithms:
 5) Quick sort
 6) Heap sort
 
-Features:
-1) Colored representation of step being executed.
-  1.1) Blue:default
-  1.2) Yellow: Being compared
-  1.3) Red: Identified as in incorrect position and to be moved
-  1.4) Green: In correct position
+### Features:
+
+1) Colored representation of step being executed:
+(1.1) Blue:default ; 
+  (1.2) Yellow: Being compared
+  (1.3) Red: Identified as in incorrect position and to be moved ;
+  (1.4) Green: In correct position.
   
-2) 3 Controls for visualizations 
-  2.1) Speed of visualization (5 speed levels)
-  2.2) Data size ()
-  2.3) Generation of new data (Randomly generate new data).
+2) 3 Controls for visualizations :
+  (2.1) Speed of visualization (5 speed levels) ;
+  (2.2) Data size () ;
+   (2.3) Generation of new data (Randomly generate new data).
   
 4) Time and Space complexity of algorithm being visualized.
 
-
-Azure Technologies used :
-
-1.Static Web Apps(for deployment of the website).
-
-2.Azure Storage Accounts.
-
-3.Container
+### Instructions to use Sorting Algorithm Visualizer:
+1. Select size and speed.
+2. Then select the desired algorithm.
+3. To again visualize the different algorithms please refresh the page and repeat above steps.
 
 
-Steps followed While Deploying :
+### Azure Technologies used :
 
-1.Firstly I built the complete project using visual studio code,then tested it on the live server extension's.
+1.Static Web Apps.
 
-2.After that I have installed the git on my system.
+2.Azure Monitor | Metrics.
 
-3.After that I uploaded and committed the project into my github repositry.
+3.Azure Resource Manager
 
-4.The project was deployed using the github pages and tested it.
 
-5.After that I logged in to my azure account and created azure storage account.
+### Steps followed While Deploying :
 
-6.After that I have created a container with blob storage and uploaded my project code into the container.
+1. Create a Resource Group using Resource Group Manager to make and manage group of all resources required in this project.
+<img width="960" alt="azure3" src="https://github.com/kunalshaw-IT/Sorting-Algorithms-Visualizer/assets/109387394/ed53e1b6-1ab1-4a22-9e2c-747a33fd35fd">
 
-7.After that I started my static web sevice and deployed my website on azure static web services.
 
-8.Finally my website was deployed on the azure web services and ready to use...
+
+2. Then goto desired resource group and search and create Azure Static Webapps and deploy code using Github actions.
+<img width="960" alt="azure2" src="https://github.com/kunalshaw-IT/Sorting-Algorithms-Visualizer/assets/109387394/4af15224-410a-4e37-8f50-5c93ff5c294d">
+
+
+3. After that search for Azure Monitor | Metrics and create it in the same resource group from which we can get insights of our webapp.
+<img width="960" alt="azure1" src="https://github.com/kunalshaw-IT/Sorting-Algorithms-Visualizer/assets/109387394/7bdd856f-a584-4c24-a06e-536e02d7a58e">
+
+
+4. Using the above steps code will be successfully deployed and ready to use.
+![azure4](https://github.com/kunalshaw-IT/Sorting-Algorithms-Visualizer/assets/109387394/870e392b-bb19-4135-ba5d-ddf4175bcb4a)
+
+WebApp Link: https://kind-desert-0e40f5510.3.azurestaticapps.net/
+
+
 
