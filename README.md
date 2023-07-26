@@ -61,7 +61,7 @@ The Sorting Algorithms Visualizer project aims to bridge the gap between theoret
 
 ### Steps followed While Deploying :
 
-1. Create a Resource Group using Resource Group Manager to make and manage group of all resources required in this project.
+1. Create a Resource Group in Microsoft Azure Portal to make and manage group of all resources required in this project.
 <img width="960" alt="azure3" src="https://github.com/kunalshaw-IT/Sorting-Algorithms-Visualizer/assets/109387394/ed53e1b6-1ab1-4a22-9e2c-747a33fd35fd">
 
 
