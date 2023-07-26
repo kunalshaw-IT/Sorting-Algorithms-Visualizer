@@ -52,12 +52,11 @@ The Sorting Algorithms Visualizer project aims to bridge the gap between theoret
 
 ### Azure Technologies used :
 
-1.Static Web Apps.
+1.Microsoft Azure Portal
 
-2.Azure Monitor | Metrics.
+2.Static Web Apps
 
-3.Azure Resource Manager
-
+3.Azure Monitor
 
 ### Steps followed While Deploying :
 
